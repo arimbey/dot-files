@@ -34,6 +34,7 @@ then
  tmux send-keys -t ${SESSION_NAME} 'aresdev' C-m
  tmux send-keys -t ${SESSION_NAME} 'go run main.go' C-m
 
+ tmux attach -t ${SESSION_NAME}
 else
  tmux attach -t ${SESSION_NAME}
 
@@ -69,6 +70,5 @@ else
  tmux send-keys -t ${SESSION_NAME} 'nov && cd executor/distexecutorservice' C-m
  tmux send-keys -t ${SESSION_NAME} 'aresdev' C-m
  tmux send-keys -t ${SESSION_NAME} 'go run main.go' C-m
-
 
 fi
