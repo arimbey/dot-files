@@ -26,7 +26,7 @@ alias htop="TERM=screen htop"
 alias cm="cd $NOVETTA/common"
 alias nov="cd $NOVETTA"
 alias aresunittest="sh $ARES/dev/rununittests.sh"
-alias runares="sh $ARES/dev/run_server.sh"
+alias runares="source $ARES/dev/ares_dev.env && cd $ARES/aresserver/server $$ go run server.go"
 alias debugares="sh $ARES/dev/run_server_debug.sh"
 alias runorg="sh $ARES/lib/organizations/dev/run_server.sh"
 alias org="cd $ARES/lib/organizations"
@@ -42,8 +42,10 @@ alias aresdev="source $ARES/dev/ares_dev.env"
 alias fbncjs="cd $ARES/aresweb/packages/fbncjs"
 alias aresserver="cd $ARES/aresserver"
 alias aresweb="cd $ARES/aresweb"
-alias glideinstall="cd $ARES && glide cc && glide install && sh $ARES/dev/run_server.sh"
+alias glideinstall="cd $ARES && glide cc && glide install && source $ARES/dev/ares_dev.env && cd $ARES/aresserver/server && go install && go run server.go"
 
+alias arimbey="cd /home/centos/gocode/src/github.com/arimbey/dot-files"
+alias startfeed="sh /home/centos/gocode/src/github.com/arimbey/dot-files/devScripts/cot_tmux.sh"
 if [[ -f "$HOME/.local.alias" ]]; then
     source $HOME/.local.alias
 fi
