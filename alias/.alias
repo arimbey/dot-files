@@ -51,7 +51,8 @@ alias uporg="sh $ARES/setup/organizations/updateDb.sh"
 
 #Ares Tracks commands
 alias arimbey="cd /home/centos/gocode/src/github.com/arimbey/dot-files"
-alias startfeed="arimbey sh devScripts/cot_tmux.sh"
+alias startfeed="arimbey && sh devScripts/cot_tmux.sh"
+alias stopfeed="arimbey $$ sh devScripts/kill_cot_tmux.sh"
 alias rungeosub="aresdev && cd $ARES/lib/geosub/geosubscriptions && go run main.go"
 alias runrecorder="aresdev && cd $ARES/lib/recorder && go run recorder.go"
 alias runexec="aresdev  && nov && cd executor/distexecutorservice &&  go run main.go"
