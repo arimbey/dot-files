@@ -10,7 +10,6 @@ cd /opt/kerbproxy/conf
 echo "Swapping Classifications"
 echo ""
 
-sudo rm -rf classifications.yaml.old
 sudo rm -rf classifications.yaml.new
 
 sudo cp classifications.yaml classifications.yaml.new
@@ -23,7 +22,6 @@ echo ""
 echo "Swapping Maps"
 echo ""
 
-sudo rm -rf maps.yaml.old
 sudo rm -rf maps.yaml.new
 
 sudo cp maps.yaml maps.yaml.new
@@ -36,7 +34,6 @@ echo ""
 echo "Swapping Kerproxy ENV"
 echo ""
 
-sudo rm -rf kerbproxy.env.old
 sudo rm -rf kerbproxy.env.new
 
 sudo cp kerbproxy.env kerbproxy.env.new
