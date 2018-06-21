@@ -1,5 +1,9 @@
 #!/bin/sh
 
+# Use this script to rename new yaml and envs to .new
+# Then switch back to the old config files used prior to updating the kerbproxy env
+# The script will also update the db tables and restart kerbproxy
+
 cd /opt/kerbproxy/conf
 
 #classifications changes
