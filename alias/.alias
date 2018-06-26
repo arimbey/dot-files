@@ -57,7 +57,7 @@ alias rungeosub="aresdev && cd $ARES/lib/geosub/geosubscriptions && go run main.
 alias runrecorder="aresdev && cd $ARES/lib/recorder && go run recorder.go"
 alias runexec="aresdev  && nov && cd executor/distexecutorservice &&  go run main.go"
 alias rungen="aresdev && ares && cd lib/generator/cot_generator && go run main.go -outIp 234.1.2.3:1234 -num 250"
-
+alias deletetelemetry="arimbey && sh devScripts/clearTelemetry.sh"
 
 if [[ -f "$HOME/.local.alias" ]]; then
     source $HOME/.local.alias
