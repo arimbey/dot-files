@@ -46,13 +46,13 @@ cd ../setup/sql
 echo ""
 echo "Dropping old schemas"
 echo ""
-psql $PGDATABASE -U postgres -c "DROP SCHEMA IF EXISTS SESSION CASCADE;"
-psql $PGDATABASE -U postgres -c "DROP SCHEMA IF EXISTS SECURITY CASCADE;"
+#psql $PGDATABASE -U postgres -c "DROP SCHEMA IF EXISTS SESSION CASCADE;"
+#psql $PGDATABASE -U postgres -c "DROP SCHEMA IF EXISTS SECURITY CASCADE;"
 
 echo ""
 echo "Running Setup.sh"
 echo ""
-./setup.sh
+#./setup.sh
 
 echo ""
 echo "Restarting Kerbproxy"
