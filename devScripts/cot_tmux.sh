@@ -57,4 +57,4 @@ else
  tmux send-keys -t ${SESSION_NAME} 'runexec' C-m
 fi
 
-tmux attach -t ${SESSION_NAME}
+##tmux attach -t ${SESSION_NAME}
