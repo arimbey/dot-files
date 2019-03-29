@@ -1,4 +1,10 @@
 #!/bin/bash
+
+# hunk?
+#Hunk????
+
+
+
 # Runs pwcop (Ares) server from a local directory, not the installed directory.
 # Used to test a developmental version of pwcop before installing it into the
 # official location.
@@ -26,3 +32,5 @@ go run server.go
 
 # Done.
 exit $?
+
+#"here here"

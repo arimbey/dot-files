@@ -9,6 +9,7 @@ rm -rf 2018/
 
 echo "Drop active tracks table"
 psql aide -U postgres -c "TRUNCATE TABLE telemetry.active_tracks;"
+psql aide -U postgres -c "TRUNCATE TABLE telemetry.tracks;"
 
 echo "Flush Redis"
 redis-cli flushall
