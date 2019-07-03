@@ -17,6 +17,8 @@ Plugin 'jelera/vim-javascript-syntax'
 Plugin 'scrooloose/syntastic'
 Plugin 'SirVer/ultisnips'
 Plugin 'raimondi/delimitmate'
+Plugin 'leafgarland/typescript-vim'
+"Plugin 'prettier/vim-prettier'
 
 call vundle#end()
 
@@ -31,15 +33,28 @@ autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isT
 
 " JSBeautify specs
 autocmd BufWritePre *.js :call JsBeautify()
-autocmd BufWritePre *.css :call CSSBeautify()
+"autocmd BufWritePre *.css :call CSSBeautify()
 autocmd BufWritePre *.html :call HtmlBeautify()
 autocmd BufWritePre *.json :call JsonBeautify()
+"autocmd BufWritePre *.ts :call JsBeautify()
+"autocmd BufWritePre *.ts :Prettier
 
 filetype off                  " reset file detection
 filetype indent plugin on
 
 syntax enable
 
+" typescript config
+let g:typescript_indent_disable = 1
+" number of spaces per indentation level
+" " Prettier default: 2
+"let g:prettier#config#tab_width = 4
+" single quotes over double quotes
+" " Prettier default: false
+"let g:prettier#config#single_quote = "false"
+" flow|babylon|typescript|css|less|scss|json|graphql|markdown
+" " Prettier default: babylon
+"let g:prettier#config#parser = "flow"
 
 set number " Show ling numbers
 set hidden "allows to keep undo history, switch files without saving
@@ -72,12 +87,28 @@ imap jk <esc>
 map <C-n> :cnext<CR>
 map <C-m> :cprevious<CR>
 nnoremap <leader>a :cclose<CR>
+nnoremap tt :tabnew <cr>
+nnoremap nt :NERDTreeToggle <cr>
+nnoremap tn :tabNext <cr>
+nnoremap xx <esc> :call JsBeautify() :w <CR>
 
 autocmd FileType go nmap <leader>b <Plug>(go-build)
 autocmd FileType go nmap <leader>r <Plug>(go-run)
 
 
+let g:go_version_warning = 0
 let g:go_fmt_command = "goimports"
 let g:go_highlight_operators = 1
-let g:go_metalinter_autosave = 1
+"let g:go_metalinter_autosave = 1
+
+let delimitMate_expand_cr=1
 "map leader /"
+
+"Will show the autocomplete options with every key stroke
+"function! OpenCompletion()
+""	if !pumvisible() && ((v:char >= 'a' && v:char <= 'z') || (v:char >= 'A' && v:char <= 'Z'))
+""	         call feedkeys("\<C-n>", "n")
+""	endif
+"endfunction
+"autocmd InsertCharPre * call OpenCompletion()
+"set completeopt=menuone,noselect,noinsert
