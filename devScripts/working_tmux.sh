@@ -46,6 +46,7 @@ tmux set -g pane-border-status top
  tmux select-pane -L -t ${SESSION_NAME}
  tmux select-pane -L -t ${SESSION_NAME}
  tmux split-window -v -t ${SESSION_NAME}
+ tmux send-keys -t ${SESSION_NAME} 'ares' C-m
  tmux select-pane -T cli
 
  #Fms server log
