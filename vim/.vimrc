@@ -15,15 +15,44 @@ Plugin 'fatih/vim-go'
 Plugin 'gagoar/stripwhitespaces'
 Plugin 'jelera/vim-javascript-syntax'
 Plugin 'scrooloose/syntastic'
-Plugin 'SirVer/ultisnips'
 Plugin 'raimondi/delimitmate'
 Plugin 'leafgarland/typescript-vim'
+Plugin 'junegunn/fzf'
+Plugin 'junegunn/fzf.vim'
+Plugin 'itchyny/lightline.vim'
+Plugin 'tpope/vim-eunuch'
+Plugin 'tpope/vim-surround'
+Plugin 'editorconfig/editorconfig-vim'
+Plugin 'tpope/vim-fugitive'
+Plugin 'w0rp/ale'
 "Plugin 'prettier/vim-prettier'
+"Plugin 'SirVer/ultisnips'
+"Plugin 'honza/vim-snippets'
 
 call vundle#end()
 
-set t_Co=256
-colorscheme DimGrey
+" for lightline plugin
+set laststatus=2
+set noshowmode
+let g:lightline = {
+      \ 'colorscheme': 'wombat',
+      \ }
+
+
+" for ale -> text editor
+" In ~/.vim/vimrc, or somewhere similar.
+let g:ale_fixers = {
+\   '*': ['remove_trailing_lines', 'trim_whitespace'],
+\   'javascript': ['eslint'],
+\   'typescript': ['tslint', 'eslint'],
+\}
+
+"May want to disable this if files start taking forever to save
+let g:ale_enabled = 0
+let g:ale_fix_on_save = 0
+
+"set t_Co=256
+"colorscheme DimGrey
 
 " Nerdtree specs
 autocmd vimenter * NERDTree

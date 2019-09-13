@@ -52,27 +52,29 @@ alias runares="source $ARES/dev/ares_dev.env && cd $ARES/aresserver/server && go
 alias debugares="aresdev && debug && go run $ARES/aresserver/server/server.go"
 alias upares="sh $ARES/setup/updateDb.sh"
 alias ares="cd $ARES"
-alias runaresclient="cd $ARES/aresweb $$ aresdev && yarninstall"
+alias runaresclient="nvm use 10.13.0 && cd $ARES/aresweb $$ aresdev && yarninstall"
 alias fbncjs="cd $ARES/aresweb/packages/fbncjs"
 alias aresserver="cd $ARES/aresserver"
 alias aresweb="cd $ARES/aresweb"
 alias glideinstall="cd $ARES && glide cc && glide install && aresdev && cd $ARES/aresserver/server && go install && go run server.go"
+alias npm_login="NPM_USER=arimbey NPM_PASS=tEKqydkgXUyuejBZyO7Vq2z8FsXQMtTog_vSiSijht1ZsFdfbW NPM_EMAIL=example@example.com NPM_REGISTRY=https://npm.novadev.me npm-cli-login"
+alias npmlink="npm install && npm run build && npm link"
 
 #Ares Organizations
-alias runorg="sh $ARES/lib/organizations/dev/run_server.sh"
-alias org="cd $ARES/lib/organizations"
+alias runorg="sh $ARES/services/organizations/dev/run_server.sh"
+alias org="cd $ARES/services/organizations"
 alias uporg="sh $ARES/setup/organizations/updateDb.sh"
 
 #Ares Tracks commands
 alias arimbey="cd /home/centos/gocode/src/github.com/arimbey/dot-files"
 alias startfeed="arimbey && sh devScripts/cot_tmux.sh"
 alias stopfeed="arimbey $$ sh devScripts/kill_cot_tmux.sh"
-alias rungeosub="aresdev && cd $ARES/lib/geosub/cmd && go run -race main.go"
-alias runrecorder="aresdev && cd $ARES/lib/recorder/cmd && go run -race recorder.go"
+alias rungeosub="aresdev && cd $ARES/services/geosubscriptions/cmd && go run -race main.go"
+alias runrecorder="aresdev && cd $ARES/services/recorder/cmd && go run -race recorder.go"
 alias runexec="aresdev  && nov && cd executor/distexecutorservice &&  go run main.go"
-alias rungen="aresdev && debug && ares && cd lib/generator/cot_generator && go run main.go -outIp 234.1.2.3:1234 -num 250"
+alias rungen="aresdev && debug && ares && cd util/generator/cot_generator && echo go run main.go -outIp 234.1.2.3:1234 -num 250"
 alias deletetelemetry="arimbey && sh devScripts/clearTelemetry.sh"
-alias cotgen="cd $ARES/lib/generator/cot_generator"
+alias cotgen="cd $ARES/util/generator/cot_generator"
 
 # Aide-Settings
 alias debugsettings="aresdev && nov && cd go.settings && debug && ./dev/run_server.sh"

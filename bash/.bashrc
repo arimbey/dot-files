@@ -63,6 +63,7 @@ export PS1="\[\e[35m\]\u\[\e[m\]@\[\e[0;36m\]\h\[\e[m\][\[\e[1m\]\W\[\e[m\]]-\[\
 
 export GOPATH="$HOME/gocode"
 export GOBIN="$GOPATH/bin"
+export GOROOT="/opt/go"
 export NOVETTA="$GOPATH/src/github.com/Novetta"
 export VIDEX="$NOVETTA/VideoEnterprise"
 export ITK="$NOVETTA/ITK"
@@ -85,6 +86,19 @@ export PATH="/home/centos/bin/Sencha/Cmd/6.2.1.29/..:$PATH"
 source ~/.alias
 source ~/git-completion.bash
 
-#export PATH="/opt/ffmpeg/bin/:$PATH"
+export PATH="/opt/ffmpeg/bin/:$PATH"
+
+export PATH="/opt/videx/bin/:$PATH"
+
+export PATH="/opt/go/bin/:$PATH"
 
 source /opt/kerbproxy/conf/kerbproxy.env
+
+export NVM_DIR="/home/centos/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
+nvm use 10.3.0
+# BEGIN ANSIBLE MANAGED BLOCK
+if [ -d "$HOME/.local/vim/bin/" ] ; then
+    PATH="$HOME/.local/vim/bin/:$PATH"
+fi
+# END ANSIBLE MANAGED BLOCK

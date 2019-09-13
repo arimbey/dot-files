@@ -1,0 +1,150 @@
+---
+# Example WMS Imagery
+# Supported versions: "1.0.0", "1.1.0", "1.1.1", "1.3.0"
+# Default version if not specified: 1.1.1
+# Preferred version: 1.3.0
+#  -
+#    name: "Country Boundaries"
+#    type: "wms"
+#    version: "1.1.1"
+#    image: "resources/images/globe.png"
+#    description: "Country Boundaries"
+#    url: "http://10.7.228.17:7880/geoserver/ngs/wms?format=image/png"
+#    layer: "ngs:country_boundaries"
+#    format: "image/jpeg"
+#    styles: ""
+#    defaultLocation:
+#        north: 45.0
+#        west: 55.0
+#        south: 25.0
+#        east: 80.0
+#    proxy: true
+#  -
+#    name: "Blue Marble"
+#    type: "wms"
+#    version: "1.1.1"
+#    image: "resources/images/globe.png"
+#    description: "Blue Marble"
+#    url: "http://10.7.228.17/wms/fusion_maps_wms.cgi"
+#    layer: "Imagery"
+#    format: "image/jpeg"
+#    styles: ""
+#    defaultLocation:
+#        north: 50.0
+#        west: 20.0
+#        south: 30.0
+#        east: 50.0
+#    proxy: true
+
+# Example Geoserver WMS Terrain
+#  -
+#    name: "elevation"
+#    type: "wms-terrain"
+#    url:  "/geoserver/gwc/service/wms"
+#    layer: "elevation"
+#    proxy: false
+
+# Example Cesium STK-based Terrain (Works on public networks)
+  -
+    name: "elevation"
+    type: "stk-terrain"
+    url:  "https://assets.agi.com/stk-terrain/world"
+    layer: "stkTerrain"
+    proxy: false
+
+# Example Google Earth Enterprise terrain
+#  -
+#    name: "elevation"
+#    type: "gee-terrain"
+#    url: "https://path-to-gee-server"
+#    proxy: true
+
+# Example Bing Maps Imagery
+# Developers can get a free API key at https://www.bingmapsportal.com
+# Customers will need to purchase an enterprise-level API key
+# Place ONE of these in the "styles" block (case-sensitive): "Aerial", "AerialWithLabels", "Road", "OrdnanceSurvey", "CollinsBart".
+# Available images: "resources/images/{bing.jpg, bing-aerial.jpg, bing-road.jpg}"
+  -
+    name: "Bing Maps"
+    type: "bing"
+    image: "resources/images/bing.jpg"
+    description: "Bing Maps"
+    url:  "https://dev.virtualearth.net"
+    api_key: "AvPvHresNSVM6HpKDhWjqkUbcABcQAzC9NaMKL-w7yYujJf2KTlvP14lfTnC76VN"
+    format: "image/jpeg"
+    styles: "AerialWithLabels"
+    defaultLocation:
+        north: 50.0
+        west: 20.0
+        south: 30.0
+        east: 50.0
+    proxy: false
+
+# Example Google Earth Enterprise Server Imagery
+# Google does not allow you to point at their primary GEarth servers; must use a local GEE server.
+# On the GEE server, you MUST enable cross-domain requests. Instructions:
+#   1. vim /opt/google/gehttpd/conf/gehttpd.conf
+#   2. Add 'Header set Access-Control-Allow-Origin "*"' to the <Directory /> block and <Directory "opt/google/gehttpd/htdocs/wms"> block'
+#   3. sudo service geserver restart
+#  -
+#    name: "Google Earth"
+#    type: "googleearth"
+#    image: "resources/images/gearth.png"
+#    description: "Google Earth Enterprise"
+#    url:  "https://path.to.local.gearth.server"
+#    format: "image/png"
+#    styles: ""
+#    defaultLocation:
+#        north: 50.0
+#        west: 20.0
+#        south: 30.0
+#        east: 50.0
+#    proxy: true
+
+# Example Fission TMS Imagery
+  -
+    name: "Fission"
+    type: "custom"
+    image: "resources/images/maps-icon.png"
+    description: "Fission TMS"
+    url:  "https://path.to.fission.server/tiles/{z}/{x}/{y}.png"
+    layer: "CustomImagery"
+    format: "image/png"
+    styles: ""
+    defaultLocation:
+        north: 50.0
+        west: 20.0
+        south: 30.0
+        east: 50.0
+    proxy: true
+  -
+    name: "Open Street"
+    type: "osm"
+    image: ""
+    description: "O p e n St"
+    url: "https://a.tile.openstreetmap.org"
+    format: "image/jpeg"
+  -
+    name: "Blue Marble"
+    description: "Ion"
+    type: "ion"
+    image: "resources/images/bing-aerial.jpg"
+    url: "https://api.cesium.com/"
+    layer: "3845"
+    api_key: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9Mc"
+  -
+    name: "Bing Cesium"
+    description: "Ion"
+    type: "ion"
+    image: "resources/images/bing-aerial.jpg"
+    url: "https://api.cesium.com/"
+    layer: "2"
+    api_key: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9Mc"
+  -
+    name: "World Terrain"
+    description: "Ion Terrain"
+    type: "ion-terrain"
+    image: "resources/images/bing-aerial.jpg"
+    url: "https://api.cesium.com/"
+    layer: "1"
+    api_key: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9Mc"   

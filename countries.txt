@@ -1,0 +1,1248 @@
+[{
+            "trigram": "Unknown",
+            "digram": "Unknown",
+            "display": "Unknown",
+            "active": true
+        }, {
+            "trigram": "ABW",
+            "digram": "AA",
+            "display": "ABW - Aruba",
+            "active": true
+        }, {
+            "trigram": "AFG",
+            "digram": "AF",
+            "display": "AFG - Afghanistan",
+            "active": true
+        }, {
+            "trigram": "AGO",
+            "digram": "AO",
+            "display": "AGO - Angola",
+            "active": true
+        }, {
+            "trigram": "AIA",
+            "digram": "AV",
+            "display": "AIA - Anguilla",
+            "active": true
+        }, {
+            "trigram": "ALA",
+            "digram": "AX",
+            "display": "ALA - Ĺland Islands",
+            "active": true
+        }, {
+            "trigram": "ALB",
+            "digram": "AL",
+            "display": "ALB - Albania",
+            "active": true
+        }, {
+            "trigram": "AND",
+            "digram": "AN",
+            "display": "AND - Andorra",
+            "active": true
+        }, {
+            "trigram": "ARE",
+            "digram": "TC",
+            "display": "ARE - United Arab Emirates",
+            "active": true
+        }, {
+            "trigram": "ARG",
+            "digram": "AR",
+            "display": "ARG - Argentina",
+            "active": true
+        }, {
+            "trigram": "ARM",
+            "digram": "AM",
+            "display": "ARM - Armenia",
+            "active": true
+        }, {
+            "trigram": "ASM",
+            "digram": "SS",
+            "display": "ASM - American Samoa",
+            "active": true
+        }, {
+            "trigram": "ATA",
+            "digram": "AY",
+            "display": "ATA - Antarctica",
+            "active": true
+        }, {
+            "trigram": "ATF",
+            "digram": "FS",
+            "display": "ATF - French Southern Territories",
+            "active": true
+        }, {
+            "trigram": "ATG",
+            "digram": "AC",
+            "display": "ATG - Antigua and Barbuda",
+            "active": true
+        }, {
+            "trigram": "AUS",
+            "digram": "AS",
+            "display": "AUS - Australia",
+            "active": true
+        }, {
+            "trigram": "AUT",
+            "digram": "AU",
+            "display": "AUT - Austria",
+            "active": true
+        }, {
+            "trigram": "AZE",
+            "digram": "AJ",
+            "display": "AZE - Azerbaijan",
+            "active": true
+        }, {
+            "trigram": "BDI",
+            "digram": "BY",
+            "display": "BDI - Burundi",
+            "active": true
+        }, {
+            "trigram": "BEL",
+            "digram": "BE",
+            "display": "BEL - Belgium",
+            "active": true
+        }, {
+            "trigram": "BEN",
+            "digram": "BN",
+            "display": "BEN - Benin",
+            "active": true
+        }, {
+            "trigram": "BES",
+            "digram": "BQ",
+            "display": "BES - Bonaire, Saint Eustatius and Saba",
+            "active": true
+        }, {
+            "trigram": "BFA",
+            "digram": "UV",
+            "display": "BFA - Burkina Faso",
+            "active": true
+        }, {
+            "trigram": "BGD",
+            "digram": "BG",
+            "display": "BGD - Bangladesh",
+            "active": true
+        }, {
+            "trigram": "BGR",
+            "digram": "BU",
+            "display": "BGR - Bulgaria",
+            "active": true
+        }, {
+            "trigram": "BHR",
+            "digram": "BA",
+            "display": "BHR - Bahrain",
+            "active": true
+        }, {
+            "trigram": "BHS",
+            "digram": "BF",
+            "display": "BHS - Bahamas",
+            "active": true
+        }, {
+            "trigram": "BIH",
+            "digram": "BK",
+            "display": "BIH - Bosnia and Herzegovina",
+            "active": true
+        }, {
+            "trigram": "BLM",
+            "digram": "BL",
+            "display": "BLM - Saint Barthélemy",
+            "active": true
+        }, {
+            "trigram": "BLR",
+            "digram": "BO",
+            "display": "BLR - Belarus",
+            "active": true
+        }, {
+            "trigram": "BLZ",
+            "digram": "BH",
+            "display": "BLZ - Belize",
+            "active": true
+        }, {
+            "trigram": "BMU",
+            "digram": "BD",
+            "display": "BMU - Bermuda",
+            "active": true
+        }, {
+            "trigram": "BOL",
+            "digram": "BL",
+            "display": "BOL - Bolivia, Plurinational State of",
+            "active": true
+        }, {
+            "trigram": "BRA",
+            "digram": "BR",
+            "display": "BRA - Brazil",
+            "active": true
+        }, {
+            "trigram": "BRB",
+            "digram": "BB",
+            "display": "BRB - Barbados",
+            "active": true
+        }, {
+            "trigram": "BRN",
+            "digram": "BX",
+            "display": "BRN - Brunei Darussalam",
+            "active": true
+        }, {
+            "trigram": "BTN",
+            "digram": "BT",
+            "display": "BTN - Bhutan",
+            "active": true
+        }, {
+            "trigram": "BVT",
+            "digram": "BV",
+            "display": "BVT - Bouvet Island",
+            "active": true
+        }, {
+            "trigram": "BWA",
+            "digram": "BC",
+            "display": "BWA - Botswana",
+            "active": true
+        }, {
+            "trigram": "CAF",
+            "digram": "CT",
+            "display": "CAF - Central African Republic",
+            "active": true
+        }, {
+            "trigram": "CAN",
+            "digram": "CA",
+            "display": "CAN - Canada",
+            "active": true
+        }, {
+            "trigram": "CCK",
+            "digram": "CK",
+            "display": "CCK - Cocos(Keeling) Islands",
+            "active": true
+        }, {
+            "trigram": "CHE",
+            "digram": "SZ",
+            "display": "CHE - Switzerland",
+            "active": true
+        }, {
+            "trigram": "CHL",
+            "digram": "CI",
+            "display": "CHL - Chile",
+            "active": true
+        }, {
+            "trigram": "CHN",
+            "digram": "CH",
+            "display": "CHN - China",
+            "active": true
+        }, {
+            "trigram": "CIV",
+            "digram": "IV",
+            "display": "CIV - Côte d'Ivoire",
+            "active": true
+        }, {
+            "trigram": "CMR",
+            "digram": "CM",
+            "display": "CMR - Cameroon",
+            "active": true
+        }, {
+            "trigram": "COD",
+            "digram": "CD",
+            "display": "COD - Congo, the Democratic Republic of the",
+            "active": true
+        }, {
+            "trigram": "COG",
+            "digram": "CD",
+            "display": "COG - Congo",
+            "active": true
+        }, {
+            "trigram": "COK",
+            "digram": "CW",
+            "display": "COK - Cook Islands",
+            "active": true
+        }, {
+            "trigram": "COL",
+            "digram": "CO",
+            "display": "COL - Colombia",
+            "active": true
+        }, {
+            "trigram": "COM",
+            "digram": "CN",
+            "display": "COM - Comoros",
+            "active": true
+        }, {
+            "trigram": "CPV",
+            "digram": "CV",
+            "display": "CPV - Cabo Verde",
+            "active": true
+        }, {
+            "trigram": "CRI",
+            "digram": "CS",
+            "display": "CRI - Costa Rica",
+            "active": true
+        }, {
+            "trigram": "CUB",
+            "digram": "CU",
+            "display": "CUB - Cuba",
+            "active": true
+        }, {
+            "trigram": "CUW",
+            "digram": "CW",
+            "display": "CUW - Curaçao",
+            "active": true
+        }, {
+            "trigram": "CXR",
+            "digram": "KT",
+            "display": "CXR - Christmas Island",
+            "active": true
+        }, {
+            "trigram": "CYM",
+            "digram": "CJ",
+            "display": "CYM - Cayman Islands",
+            "active": true
+        }, {
+            "trigram": "CYP",
+            "digram": "CY",
+            "display": "CYP - Cyprus",
+            "active": true
+        }, {
+            "trigram": "CZE",
+            "digram": "CZ",
+            "display": "CZE - Czechia",
+            "active": true
+        }, {
+            "trigram": "DEU",
+            "digram": "GE",
+            "display": "DEU - Germany",
+            "active": true
+        }, {
+            "trigram": "DJI",
+            "digram": "DJ",
+            "display": "DJI - Djibouti",
+            "active": true
+        }, {
+            "trigram": "DMA",
+            "digram": "DO",
+            "display": "DMA - Dominica",
+            "active": true
+        }, {
+            "trigram": "DNK",
+            "digram": "DA",
+            "display": "DNK - Denmark",
+            "active": true
+        }, {
+            "trigram": "DOM",
+            "digram": "DR",
+            "display": "DOM - Dominican Republic",
+            "active": true
+        }, {
+            "trigram": "DZA",
+            "digram": "AG",
+            "display": "DZA - Algeria",
+            "active": true
+        }, {
+            "trigram": "ECU",
+            "digram": "EC",
+            "display": "ECU - Ecuador",
+            "active": true
+        }, {
+            "trigram": "EGY",
+            "digram": "EG",
+            "display": "EGY - Egypt",
+            "active": true
+        }, {
+            "trigram": "ERI",
+            "digram": "ER",
+            "display": "ERI - Eritrea",
+            "active": true
+        }, {
+            "trigram": "ESH",
+            "digram": "WI",
+            "display": "ESH - Western Sahara",
+            "active": true
+        }, {
+            "trigram": "ESP",
+            "digram": "ES",
+            "display": "ESP - Spain",
+            "active": true
+        }, {
+            "trigram": "EST",
+            "digram": "EN",
+            "display": "EST - Estonia",
+            "active": true
+        }, {
+            "trigram": "ETH",
+            "digram": "ET",
+            "display": "ETH - Ethiopia",
+            "active": true
+        }, {
+            "trigram": "FIN",
+            "digram": "FI",
+            "display": "FIN - Finland",
+            "active": true
+        }, {
+            "trigram": "FJI",
+            "digram": "FJ",
+            "display": "FJI - Fiji",
+            "active": true
+        }, {
+            "trigram": "FLK",
+            "digram": "FK",
+            "display": "FLK - Falkland Islands(Malvinas)",
+            "active": true
+        }, {
+            "trigram": "FRA",
+            "digram": "FR",
+            "display": "FRA - France",
+            "active": true
+        }, {
+            "trigram": "FRO",
+            "digram": "FO",
+            "display": "FRO - Faroe Islands",
+            "active": true
+        }, {
+            "trigram": "FSM",
+            "digram": "FM",
+            "display": "FSM - Micronesia, Federated States of",
+            "active": true
+        }, {
+            "trigram": "GAB",
+            "digram": "GA",
+            "display": "GAB - Gabon",
+            "active": true
+        }, {
+            "trigram": "GBR",
+            "digram": "GB",
+            "display": "GBR - United Kingdom",
+            "active": true
+        }, {
+            "trigram": "GEO",
+            "digram": "GG",
+            "display": "GEO - Georgia",
+            "active": true
+        }, {
+            "trigram": "GGY",
+            "display": "GGY - Guernsey",
+            "active": true
+        }, {
+            "trigram": "GHA",
+            "digram": "GH",
+            "display": "GHA - Ghana",
+            "active": true
+        }, {
+            "trigram": "GIB",
+            "digram": "GI",
+            "display": "GIB - Gibraltar",
+            "active": true
+        }, {
+            "trigram": "GIN",
+            "digram": "GV",
+            "display": "GIN - Guinea",
+            "active": true
+        }, {
+            "trigram": "GLP",
+            "digram": "GP",
+            "display": "GLP - Guadeloupe",
+            "active": true
+        }, {
+            "trigram": "GMB",
+            "digram": "GM",
+            "display": "GMB - Gambia",
+            "active": true
+        }, {
+            "trigram": "GNB",
+            "digram": "PU",
+            "display": "GNB - Guinea - Bissau",
+            "active": true
+        }, {
+            "trigram": "GNQ",
+            "digram": "EK",
+            "display": "GNQ - Equatorial Guinea",
+            "active": true
+        }, {
+            "trigram": "GRC",
+            "digram": "GR",
+            "display": "GRC - Greece",
+            "active": true
+        }, {
+            "trigram": "GRD",
+            "digram": "GJ",
+            "display": "GRD - Grenada",
+            "active": true
+        }, {
+            "trigram": "GRL",
+            "digram": "GL",
+            "display": "GRL - Greenland",
+            "active": true
+        }, {
+            "trigram": "GTM",
+            "digram": "GT",
+            "display": "GTM - Guatemala",
+            "active": true
+        }, {
+            "trigram": "GUF",
+            "digram": "FG",
+            "display": "GUF - French Guiana",
+            "active": true
+        }, {
+            "trigram": "GUM",
+            "digram": "GQ",
+            "display": "GUM - Guam",
+            "active": true
+        }, {
+            "trigram": "GUY",
+            "digram": "GY",
+            "display": "GUY - Guyana",
+            "active": true
+        }, {
+            "trigram": "HKG",
+            "digram": "HK",
+            "display": "HKG - Hong Kong",
+            "active": true
+        }, {
+            "trigram": "HMD",
+            "digram": "HM",
+            "display": "HMD - Heard Island and McDonald Islands",
+            "active": true
+        }, {
+            "trigram": "HND",
+            "digram": "HO",
+            "display": "HND - Honduras",
+            "active": true
+        }, {
+            "trigram": "HRV",
+            "digram": "HR",
+            "display": "HRV - Croatia",
+            "active": true
+        }, {
+            "trigram": "HTI",
+            "digram": "HA",
+            "display": "HTI - Haiti",
+            "active": true
+        }, {
+            "trigram": "HUN",
+            "digram": "HU",
+            "display": "HUN - Hungary",
+            "active": true
+        }, {
+            "trigram": "IDN",
+            "digram": "ID",
+            "display": "IDN - Indonesia",
+            "active": true
+        }, {
+            "trigram": "IMN",
+            "display": "IMN - Isle of Man",
+            "active": true
+        }, {
+            "trigram": "IND",
+            "digram": "IN",
+            "display": "IND - India",
+            "active": true
+        }, {
+            "trigram": "IOT",
+            "digram": "IO",
+            "display": "IOT - British Indian Ocean Territory",
+            "active": true
+        }, {
+            "trigram": "IRL",
+            "digram": "EI",
+            "display": "IRL - Ireland",
+            "active": true
+        }, {
+            "trigram": "IRN",
+            "digram": "IR",
+            "display": "IRN - Iran, Islamic Republic of",
+            "active": true
+        }, {
+            "trigram": "IRQ",
+            "digram": "IZ",
+            "display": "IRQ - Iraq",
+            "active": true
+        }, {
+            "trigram": "ISL",
+            "digram": "IC",
+            "display": "ISL - Iceland",
+            "active": true
+        }, {
+            "trigram": "ISR",
+            "digram": "IS",
+            "display": "ISR - Israel",
+            "active": true
+        }, {
+            "trigram": "ITA",
+            "digram": "IT",
+            "display": "ITA - Italy",
+            "active": true
+        }, {
+            "trigram": "JAM",
+            "digram": "JM",
+            "display": "JAM - Jamaica",
+            "active": true
+        }, {
+            "trigram": "JEY",
+            "display": "JEY - Jersey",
+            "active": true
+        }, {
+            "trigram": "JOR",
+            "digram": "JO",
+            "display": "JOR - Jordan",
+            "active": true
+        }, {
+            "trigram": "JPN",
+            "digram": "JA",
+            "display": "JPN - Japan",
+            "active": true
+        }, {
+            "trigram": "KAZ",
+            "digram": "KZ",
+            "display": "KAZ - Kazakhstan",
+            "active": true
+        }, {
+            "trigram": "KEN",
+            "digram": "KE",
+            "display": "KEN - Kenya",
+            "active": true
+        }, {
+            "trigram": "KGZ",
+            "digram": "KG",
+            "display": "KGZ - Kyrgyzstan",
+            "active": true
+        }, {
+            "trigram": "KHM",
+            "digram": "CB",
+            "display": "KHM - Cambodia",
+            "active": true
+        }, {
+            "trigram": "KIR",
+            "digram": "KR",
+            "display": "KIR - Kiribati",
+            "active": true
+        }, {
+            "trigram": "KNA",
+            "digram": "SC",
+            "display": "KNA - Saint Kitts and Nevis",
+            "active": true
+        }, {
+            "trigram": "KOR",
+            "digram": "KS",
+            "display": "KOR - Korea, Republic of",
+            "active": true
+        }, {
+            "trigram": "KWT",
+            "digram": "KU",
+            "display": "KWT - Kuwait",
+            "active": true
+        }, {
+            "trigram": "LAO",
+            "digram": "LA",
+            "display": "LAO - Lao People's Democratic Republic",
+            "active": true
+        }, {
+            "trigram": "LBN",
+            "digram": "LE",
+            "display": "LBN - Lebanon",
+            "active": true
+        }, {
+            "trigram": "LBR",
+            "digram": "LI",
+            "display": "LBR - Liberia",
+            "active": true
+        }, {
+            "trigram": "LBY",
+            "digram": "LY",
+            "display": "LBY - Libya",
+            "active": true
+        }, {
+            "trigram": "LCA",
+            "digram": "ST",
+            "display": "LCA - Saint Lucia",
+            "active": true
+        }, {
+            "trigram": "LIE",
+            "digram": "LS",
+            "display": "LIE - Liechtenstein",
+            "active": true
+        }, {
+            "trigram": "LKA",
+            "digram": "CE",
+            "display": "LKA - Sri Lanka",
+            "active": true
+        }, {
+            "trigram": "LSO",
+            "digram": "LT",
+            "display": "LSO - Lesotho",
+            "active": true
+        }, {
+            "trigram": "LTU",
+            "digram": "LH",
+            "display": "LTU - Lithuania",
+            "active": true
+        }, {
+            "trigram": "LUX",
+            "digram": "LU",
+            "display": "LUX - Luxembourg",
+            "active": true
+        }, {
+            "trigram": "LVA",
+            "digram": "LG",
+            "display": "LVA - Latvia",
+            "active": true
+        }, {
+            "trigram": "MAC",
+            "digram": "MC",
+            "display": "MAC - Macao",
+            "active": true
+        }, {
+            "trigram": "MAF",
+            "digram": "MF",
+            "display": "MAF - Saint Martin(French part)",
+            "active": true
+        }, {
+            "trigram": "MAR",
+            "digram": "MO",
+            "display": "MAR - Morocco",
+            "active": true
+        }, {
+            "trigram": "MCO",
+            "digram": "MN",
+            "display": "MCO - Monaco",
+            "active": true
+        }, {
+            "trigram": "MDA",
+            "digram": "MD",
+            "display": "MDA - Moldova, Republic of",
+            "active": true
+        }, {
+            "trigram": "MDG",
+            "digram": "MA",
+            "display": "MDG - Madagascar",
+            "active": true
+        }, {
+            "trigram": "MDV",
+            "digram": "MV",
+            "display": "MDV - Maldives",
+            "active": true
+        }, {
+            "trigram": "MEX",
+            "digram": "MX",
+            "display": "MEX - Mexico",
+            "active": true
+        }, {
+            "trigram": "MHL",
+            "digram": "RM",
+            "display": "MHL - Marshall Islands",
+            "active": true
+        }, {
+            "trigram": "MKD",
+            "digram": "MK",
+            "display": "MKD - Macedonia, the former Yugoslav Republic of",
+            "active": true
+        }, {
+            "trigram": "MLI",
+            "digram": "ML",
+            "display": "MLI - Mali",
+            "active": true
+        }, {
+            "trigram": "MLT",
+            "digram": "MT",
+            "display": "MLT - Malta",
+            "active": true
+        }, {
+            "trigram": "MMR",
+            "digram": "BM",
+            "display": "MMR - Myanmar",
+            "active": true
+        }, {
+            "trigram": "MNE",
+            "digram": "ME",
+            "display": "MNE - Montenegro",
+            "active": true
+        }, {
+            "trigram": "MNG",
+            "digram": "MG",
+            "display": "MNG - Mongolia",
+            "active": true
+        }, {
+            "trigram": "MNP",
+            "digram": "CQ",
+            "display": "MNP - Northern Mariana Islands",
+            "active": true
+        }, {
+            "trigram": "MOZ",
+            "digram": "MZ",
+            "display": "MOZ - Mozambique",
+            "active": true
+        }, {
+            "trigram": "MRT",
+            "digram": "MR",
+            "display": "MRT - Mauritania",
+            "active": true
+        }, {
+            "trigram": "MSR",
+            "digram": "MH",
+            "display": "MSR - Montserrat",
+            "active": true
+        }, {
+            "trigram": "MTQ",
+            "digram": "MB",
+            "display": "MTQ - Martinique",
+            "active": true
+        }, {
+            "trigram": "MUS",
+            "digram": "MP",
+            "display": "MUS - Mauritius",
+            "active": true
+        }, {
+            "trigram": "MWI",
+            "digram": "MI",
+            "display": "MWI - Malawi",
+            "active": true
+        }, {
+            "trigram": "MYS",
+            "digram": "MY",
+            "display": "MYS - Malaysia",
+            "active": true
+        }, {
+            "trigram": "MYT",
+            "digram": "YT",
+            "display": "MYT - Mayotte",
+            "active": true
+        }, {
+            "trigram": "NAM",
+            "digram": "WA",
+            "display": "NAM - Namibia",
+            "active": true
+        }, {
+            "trigram": "NCL",
+            "digram": "NC",
+            "display": "NCL - New Caledonia",
+            "active": true
+        }, {
+            "trigram": "NER",
+            "digram": "NG",
+            "display": "NER - Niger",
+            "active": true
+        }, {
+            "trigram": "NFK",
+            "digram": "NF",
+            "display": "NFK - Norfolk Island",
+            "active": true
+        }, {
+            "trigram": "NGA",
+            "digram": "NI",
+            "display": "NGA - Nigeria",
+            "active": true
+        }, {
+            "trigram": "NIC",
+            "digram": "NU",
+            "display": "NIC - Nicaragua",
+            "active": true
+        }, {
+            "trigram": "NIU",
+            "digram": "NE",
+            "display": "NIU - Niue",
+            "active": true
+        }, {
+            "trigram": "NLD",
+            "digram": "NL",
+            "display": "NLD - Netherlands",
+            "active": true
+        }, {
+            "trigram": "NOR",
+            "digram": "NO",
+            "display": "NOR - Norway",
+            "active": true
+        }, {
+            "trigram": "NPL",
+            "digram": "NP",
+            "display": "NPL - Nepal",
+            "active": true
+        }, {
+            "trigram": "NRU",
+            "digram": "NR",
+            "display": "NRU - Nauru",
+            "active": true
+        }, {
+            "trigram": "NZL",
+            "digram": "NZ",
+            "display": "NZL - New Zealand",
+            "active": true
+        }, {
+            "trigram": "OMN",
+            "digram": "MU",
+            "display": "OMN - Oman",
+            "active": true
+        }, {
+            "trigram": "PAK",
+            "digram": "PK",
+            "display": "PAK - Pakistan",
+            "active": true
+        }, {
+            "trigram": "PAN",
+            "digram": "PM",
+            "display": "PAN - Panama",
+            "active": true
+        }, {
+            "trigram": "PCN",
+            "digram": "PN",
+            "display": "PCN - Pitcairn",
+            "active": true
+        }, {
+            "trigram": "PER",
+            "digram": "PE",
+            "display": "PER - Peru",
+            "active": true
+        }, {
+            "trigram": "PHL",
+            "digram": "RP",
+            "display": "PHL - Philippines",
+            "active": true
+        }, {
+            "trigram": "PLW",
+            "digram": "PS",
+            "display": "PLW - Palau",
+            "active": true
+        }, {
+            "trigram": "PNG",
+            "digram": "PP",
+            "display": "PNG - Papua New Guinea",
+            "active": true
+        }, {
+            "trigram": "POL",
+            "digram": "PL",
+            "display": "POL - Poland",
+            "active": true
+        }, {
+            "trigram": "PRI",
+            "digram": "RQ",
+            "display": "PRI - Puerto Rico",
+            "active": true
+        }, {
+            "trigram": "PRK",
+            "digram": "KN",
+            "display": "PRK - Korea, Democratic People's Republic of",
+            "active": true
+        }, {
+            "trigram": "PRT",
+            "digram": "PO",
+            "display": "PRT - Portugal",
+            "active": true
+        }, {
+            "trigram": "PRY",
+            "digram": "PA",
+            "display": "PRY - Paraguay",
+            "active": true
+        }, {
+            "trigram": "PSE",
+            "digram": "PS",
+            "display": "PSE - Palestine, State of",
+            "active": true
+        }, {
+            "trigram": "PYF",
+            "digram": "FP",
+            "display": "PYF - French Polynesia",
+            "active": true
+        }, {
+            "trigram": "QAT",
+            "digram": "QA",
+            "display": "QAT - Qatar",
+            "active": true
+        }, {
+            "trigram": "REU",
+            "digram": "RE",
+            "display": "REU - Réunion",
+            "active": true
+        }, {
+            "trigram": "ROU",
+            "digram": "RO",
+            "display": "ROU - Romania",
+            "active": true
+        }, {
+            "trigram": "RUS",
+            "digram": "RU",
+            "display": "RUS - Russian Federation",
+            "active": true
+        }, {
+            "trigram": "RWA",
+            "digram": "RW",
+            "display": "RWA - Rwanda",
+            "active": true
+        }, {
+            "trigram": "SAU",
+            "digram": "SA",
+            "display": "SAU - Saudi Arabia",
+            "active": true
+        }, {
+            "trigram": "SDN",
+            "digram": "SU",
+            "display": "SDN - Sudan",
+            "active": true
+        }, {
+            "trigram": "SEN",
+            "digram": "SG",
+            "display": "SEN - Senegal",
+            "active": true
+        }, {
+            "trigram": "SGP",
+            "digram": "SN",
+            "display": "SGP - Singapore",
+            "active": true
+        }, {
+            "trigram": "SGS",
+            "digram": "GS",
+            "display": "SGS - South Georgia and the South Sandwich Islands",
+            "active": true
+        }, {
+            "trigram": "SHN",
+            "digram": "SH",
+            "display": "SHN - Saint Helena, Ascension and Tristan da Cunha",
+            "active": true
+        }, {
+            "trigram": "SJM",
+            "digram": "SJ",
+            "display": "SJM - Svalbard and Jan Mayen",
+            "active": true
+        }, {
+            "trigram": "SLB",
+            "digram": "BP",
+            "display": "SLB - Solomon Islands",
+            "active": true
+        }, {
+            "trigram": "SLE",
+            "digram": "SL",
+            "display": "SLE - Sierra Leone",
+            "active": true
+        }, {
+            "trigram": "SLV",
+            "digram": "SV",
+            "display": "SLV - El Salvador",
+            "active": true
+        }, {
+            "trigram": "SMR",
+            "digram": "SM",
+            "display": "SMR - San Marino",
+            "active": true
+        }, {
+            "trigram": "SOM",
+            "digram": "SO",
+            "display": "SOM - Somalia",
+            "active": true
+        }, {
+            "trigram": "SPM",
+            "digram": "SB",
+            "display": "SPM - Saint Pierre and Miquelon",
+            "active": true
+        }, {
+            "trigram": "SRB",
+            "digram": "RS",
+            "display": "SRB - Serbia",
+            "active": true
+        }, {
+            "trigram": "SSD",
+            "digram": "SS",
+            "display": "SSD - South Sudan",
+            "active": true
+        }, {
+            "trigram": "STP",
+            "digram": "TP",
+            "display": "STP - Sao Tome and Principe",
+            "active": true
+        }, {
+            "trigram": "SUR",
+            "digram": "NS",
+            "display": "SUR - Suriname",
+            "active": true
+        }, {
+            "trigram": "SVK",
+            "digram": "LO",
+            "display": "SVK - Slovakia",
+            "active": true
+        }, {
+            "trigram": "SVN",
+            "digram": "SI",
+            "display": "SVN - Slovenia",
+            "active": true
+        }, {
+            "trigram": "SWE",
+            "digram": "SW",
+            "display": "SWE - Sweden",
+            "active": true
+        }, {
+            "trigram": "SWZ",
+            "digram": "WZ",
+            "display": "SWZ - Swaziland",
+            "active": true
+        }, {
+            "trigram": "SXM",
+            "digram": "SX",
+            "display": "SXM - Sint Maarten(Dutch part)",
+            "active": true
+        }, {
+            "trigram": "SYC",
+            "digram": "SE",
+            "display": "SYC - Seychelles",
+            "active": true
+        }, {
+            "trigram": "SYR",
+            "digram": "SY",
+            "display": "SYR - Syrian Arab Republic",
+            "active": true
+        }, {
+            "trigram": "TCA",
+            "digram": "TK",
+            "display": "TCA - Turks and Caicos Islands",
+            "active": true
+        }, {
+            "trigram": "TCD",
+            "digram": "CD",
+            "display": "TCD - Chad",
+            "active": true
+        }, {
+            "trigram": "TGO",
+            "digram": "TO",
+            "display": "TGO - Togo",
+            "active": true
+        }, {
+            "trigram": "THA",
+            "digram": "TH",
+            "display": "THA - Thailand",
+            "active": true
+        }, {
+            "trigram": "TJK",
+            "digram": "TI",
+            "display": "TJK - Tajikistan",
+            "active": true
+        }, {
+            "trigram": "TKL",
+            "digram": "TK",
+            "display": "TKL - Tokelau",
+            "active": true
+        }, {
+            "trigram": "TKM",
+            "digram": "TX",
+            "display": "TKM - Turkmenistan",
+            "active": true
+        }, {
+            "trigram": "TLS",
+            "digram": "TL",
+            "display": "TLS - Timor - Leste",
+            "active": true
+        }, {
+            "trigram": "TON",
+            "digram": "TN",
+            "display": "TON - Tonga",
+            "active": true
+        }, {
+            "trigram": "TTO",
+            "digram": "TD",
+            "display": "TTO - Trinidad and Tobago",
+            "active": true
+        }, {
+            "trigram": "TUN",
+            "digram": "TS",
+            "display": "TUN - Tunisia",
+            "active": true
+        }, {
+            "trigram": "TUR",
+            "digram": "TU",
+            "display": "TUR - Turkey",
+            "active": true
+        }, {
+            "trigram": "TUV",
+            "digram": "TV",
+            "display": "TUV - Tuvalu",
+            "active": true
+        }, {
+            "trigram": "TWN",
+            "digram": "TW",
+            "display": "TWN - Taiwan, Province of China",
+            "active": true
+        }, {
+            "trigram": "TZA",
+            "digram": "TZ",
+            "display": "TZA - Tanzania, United Republic of",
+            "active": true
+        }, {
+            "trigram": "UGA",
+            "digram": "UG",
+            "display": "UGA - Uganda",
+            "active": true
+        }, {
+            "trigram": "UKR",
+            "digram": "UP",
+            "display": "UKR - Ukraine",
+            "active": true
+        }, {
+            "trigram": "UMI",
+            "digram": "IQ",
+            "display": "UMI - United States Minor Outlying Islands",
+            "active": true
+        }, {
+            "trigram": "URY",
+            "digram": "UY",
+            "display": "URY - Uruguay",
+            "active": true
+        }, {
+            "trigram": "USA",
+            "digram": "US",
+            "display": "USA - United States of America, The",
+            "active": true
+        }, {
+            "trigram": "UZB",
+            "digram": "UZ",
+            "display": "UZB - Uzbekistan",
+            "active": true
+        }, {
+            "trigram": "VAT",
+            "digram": "VT",
+            "display": "VAT - Holy See(Vatican City State)",
+            "active": true
+        }, {
+            "trigram": "VCT",
+            "digram": "VC",
+            "display": "VCT - Saint Vincent and the Grenadines",
+            "active": true
+        }, {
+            "trigram": "VEN",
+            "digram": "VE",
+            "display": "VEN - Venezuela, Bolivarian Republic of",
+            "active": true
+        }, {
+            "trigram": "VGB",
+            "digram": "VS",
+            "display": "VGB - Virgin Islands, British",
+            "active": true
+        }, {
+            "trigram": "VIR",
+            "digram": "VI",
+            "display": "VIR - Virgin Islands, U.S.",
+            "active": true
+        }, {
+            "trigram": "VNM",
+            "digram": "VM",
+            "display": "VNM - Viet Nam",
+            "active": true
+        }, {
+            "trigram": "VUT",
+            "digram": "NH",
+            "display": "VUT - Vanuatu",
+            "active": true
+        }, {
+            "trigram": "WLF",
+            "digram": "WF",
+            "display": "WLF - Wallis and Futuna",
+            "active": true
+        }, {
+            "trigram": "WSM",
+            "digram": "SS",
+            "display": "WSM - Samoa",
+            "active": true
+        }, {
+            "trigram": "YEM",
+            "digram": "YE",
+            "display": "YEM - Yemen",
+            "active": true
+        }, {
+            "trigram": "ZAF",
+            "digram": "SF",
+            "display": "ZAF - South Africa",
+            "active": true
+        }, {
+            "trigram": "ZMB",
+            "digram": "ZA",
+            "display": "ZMB - Zambia",
+            "active": true
+        }, {
+            "trigram": "ZWE",
+            "digram": "ZI",
+            "display": "ZWE - Zimbabwei",
+            "active": true
+        }]
