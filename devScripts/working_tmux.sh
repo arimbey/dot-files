@@ -42,4 +42,17 @@ tmux set -g pane-border-status top
  tmux send-keys -t ${SESSION_NAME} 'debuggeolayers' C-m
  tmux select-pane -T geolayers
 
+ #For easy command line stuff
+ tmux select-pane -L -t ${SESSION_NAME}
+ tmux select-pane -L -t ${SESSION_NAME}
+ tmux split-window -v -t ${SESSION_NAME}
+ tmux select-pane -T cli
+
+ #Fms server log
+ tmux select-pane -R -t ${SESSION_NAME}
+ tmux split-window -v -t ${SESSION_NAME}
+ tmux send-keys -t ${SESSION_NAME} 'sudo tail -f /var/log/fms/fms.log' C-m
+ tmux select-pane -T fms-server
+
+
  tmux attach -t ${SESSION_NAME}
