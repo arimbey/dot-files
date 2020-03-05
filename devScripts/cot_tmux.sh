@@ -12,7 +12,7 @@ then
 
  #Pane 0
  #First Window cot generator
- tmux send-keys -t ${SESSION_NAME} 'rungen' C-m
+ tmux send-keys -t ${SESSION_NAME} 'alias rungen && rungen' C-m
  tmux select-pane -T generator
 
  #Pane 2
@@ -41,7 +41,7 @@ else
  tmux new-session -s ${SESSION_NAME} -n generator -d
 #Pane 0
  #First Window cot generator
- tmux send-keys -t ${SESSION_NAME} 'rungen' C-m
+ tmux send-keys -t ${SESSION_NAME} 'alias rungen && rungen' C-m
 
  #Pane 2
  tmux split-window -h -t ${SESSION_NAME}
