@@ -25,7 +25,12 @@ tmux set -g pane-border-status top
  tmux select-pane -T aide-settings
  tmux resize-pane -L 90
 
- #Pane 3
+#Pane 3
+ tmux split-window -h -t ${SESSION_NAME}
+ tmux send-keys -t ${SESSION_NAME} 'debugares2' C-m
+ tmux select-pane -T ares2-server
+
+#Pane 3
  tmux split-window -h -t ${SESSION_NAME}
  tmux send-keys -t ${SESSION_NAME} 'debuglogcop' C-m
  tmux select-pane -T logcop-server
@@ -46,8 +51,8 @@ tmux set -g pane-border-status top
  tmux select-pane -L -t ${SESSION_NAME}
  tmux select-pane -L -t ${SESSION_NAME}
  tmux split-window -v -t ${SESSION_NAME}
- tmux send-keys -t ${SESSION_NAME} 'ares' C-m
- tmux select-pane -T cli
+ tmux send-keys -t ${SESSION_NAME} 'ares2client' C-m
+ tmux select-pane -T ares2client
 
  #Fms server log
  tmux select-pane -R -t ${SESSION_NAME}
