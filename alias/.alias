@@ -24,6 +24,7 @@ alias htop="TERM=screen htop"
 alias salias="source ~/.alias"
 
 alias sctl="sudo systemctl"
+alias aws='docker run --rm -tiv $HOME/.aws:/root/.aws -v $(pwd):/aws mikesir87/aws-cli aws'
 
 #Novetta Commands
 alias nov="cd $NOVETTA"
@@ -31,10 +32,11 @@ alias debug="export LOG_LEVEL=DEBUG && echo $LOG_LEVEL"
 alias ker="cd $KERBPROXY"
 alias kersource="source /opt/kerbproxy/conf/kerbproxy.env"
 alias fms="cd $NOVETTA/fms"
-alias npminstall="npm install && npm run start"
+alias npmdebug="npm install && npm run build:debug"
 alias search="cd $NOVETTA/search"
 alias dep="dep ensure -v -vendor-only"
 alias resetusers="sh /home/arimbey/gocode/src/github.com/arimbey/dot-files/devScripts/updateUsers.sh"
+alias npmbuild="npm install && npm run build"
 
 # GEOLAYERS/GEOSERVER
 
@@ -48,20 +50,26 @@ alias geoserver="cd $NOVETTA/Geoserver"
 alias aresdev="source $ARES/dev/ares_dev.env"
 alias aresunittest="sh $ARES/dev/rununittests.sh"
 alias runares="source $ARES/dev/ares_dev.env && cd $ARES/aresserver/server && go run server.go"
-alias debugares="aresdev && debug && go run $ARES/aresserver/server/server.go"
+alias debugares="aresdev && debug && cd $ARES && go run aresserver/server/server.go"
 alias upares="sh $ARES/setup/updateDb.sh"
 alias ares="cd $ARES"
 alias runaresclient="cd $ARES/aresweb $$ aresdev && npmstart"
 alias fbncjs="cd $ARES/aresweb/packages/fbncjs"
 alias aresserver="cd $ARES/aresserver"
 alias aresweb="cd $ARES/aresweb"
-alias glideinstall="cd $ARES && glide cc && glide install && aresdev && cd $ARES/aresserver/server && go install && go run server.go"
 alias npm_login="NPM_USER=arimbey NPM_PASS=tEKqydkgXUyuejBZyO7Vq2z8FsXQMtTog_vSiSijht1ZsFdfbW NPM_EMAIL=example@example.com NPM_REGISTRY=https://npm.novadev.me npm-cli-login"
 alias npmprepub="npm install && npm run build && npm publish --dry-run"
 alias npmlocal="npm run install:local"
 alias npmcheck="npm run check"
 alias lernaboot="ares && npx lerna bootstrap --force-local --ci && cd aresweb && npm run start"
 alias npmstart="npm install && npm run start"
+
+#Ares 2 commands
+alias ares2Drive="nov && cd imap/lib/AideDrive && npmbuild"
+alias ares2Map="nov && cd imap/lib/Map && npm build"
+alias ares2web="nov && cd imap/web && npm install && npm start"
+alias ares2client="ares2Drive && ares2Map && ares2web"
+alias debugares2="nov && cd imap && make runserver"
 
 #Ares Organizations
 alias runorg="sh $ARES/services/organizations/dev/run_server.sh"
@@ -80,7 +88,7 @@ alias rungen="aresdev && debug && ares && cotgen  && go run main.go -outIp 234.1
 alias deletetelemetry="arimbey && sh devScripts/clearTelemetry.sh"
 
 # Aide-Settings
-alias debugsettings="sudo service aide-settings stop && aresdev && nov && cd go.settings && debug && go run -race server/main.go"
+alias debugsettings="sudo service aide-settings stop && nov && cd go.settings && source dev/aide-settings_dev.env && debug && go run -race server/main.go"
 
 #Logcop
 alias debuglogcop="nov && cd logcop && source dev/logcop.env && debug && go run -race logcopserver/server/server.go"
