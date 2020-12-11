@@ -27,11 +27,6 @@ tmux set -g pane-border-status top
 
 #Pane 3
  tmux split-window -h -t ${SESSION_NAME}
- tmux send-keys -t ${SESSION_NAME} 'debugares2' C-m
- tmux select-pane -T ares2-server
-
-#Pane 3
- tmux split-window -h -t ${SESSION_NAME}
  tmux send-keys -t ${SESSION_NAME} 'debuglogcop' C-m
  tmux select-pane -T logcop-server
 
@@ -54,11 +49,11 @@ tmux set -g pane-border-status top
  tmux send-keys -t ${SESSION_NAME} 'ares2client' C-m
  tmux select-pane -T ares2client
 
- #Fms server log
+ #Ares2 server log
  tmux select-pane -R -t ${SESSION_NAME}
  tmux split-window -v -t ${SESSION_NAME}
- tmux send-keys -t ${SESSION_NAME} 'sudo tail -f /var/log/fms/fms.log' C-m
- tmux select-pane -T fms-server
+ tmux send-keys -t ${SESSION_NAME} 'debugares2' C-m
+ tmux select-pane -T ares2Server
 
 
  tmux attach -t ${SESSION_NAME}
